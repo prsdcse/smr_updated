@@ -1,0 +1,50 @@
+{
+  "name": "MRSurvey",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-plugin-transform-remove-console": "^6.9.1",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "native-base": "^2.3.8",
+    "prop-types": "^15.6.0",
+    "react": "16.3.2",
+    "react-native": "0.55.0",
+    "react-native-clear-app-cache": "https://github.com/prsdcse/react-native-clear-app-cache.git",
+    "react-native-form-validator": "^0.2.0",
+    "react-native-fs": "^2.9.11",
+    "react-native-simple-radio-button": "^2.7.1",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-table-component": "^1.1.3",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.0.3",
+    "react-navigation-redux-helpers": "^1.0.1",
+    "react-redux": "^5.0.6",
+    "realm": "^2.4.0",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "validate.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.2",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "22.2.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": [
+    "src/assets/fonts",
+    "src/assets/images"
+  ]
+}
